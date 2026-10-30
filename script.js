@@ -334,7 +334,7 @@ function toS3() {
     const la = document.getElementById('s2la').value.trim();
     const ph = document.getElementById('s2ph').value;
 
-    if (!fi || !la || ph.length !== 9) {
+    if (!fi || !la || ph.length !== 8) {
         showErr('s2Err', 'Please enter valid first name, last name, and 8-digit phone number.');
         return;
     }
